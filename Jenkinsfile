@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ -o my_program nishaan.cpp' // Compile C++ file
+                    sh 'g++ -o my_program nishaans.cpp' // Compile C++ file
                 }
             }
         }
